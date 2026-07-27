@@ -16,7 +16,7 @@ Status values:
 | External security audit | Complete an external audit of Soroban contracts, upgrade controls, SDK signing paths, indexer APIs, and notification webhooks. | Security lead | Not started | [Create audit tracking issue](https://github.com/Invoice-Liquidity-Network/Invoice-Liquidity-Network/issues/new) |
 | Coverage thresholds met | Confirm contract, SDK, CLI, indexer, and notifications coverage thresholds pass in CI before release branch freeze. | QA lead | In progress | [Coverage workflow](../.github/workflows/coverage.yml) |
 | Fuzz tests run | Run fuzz or property-based tests for invoice lifecycle, XDR encoding, amount math, and settlement state transitions. | Protocol lead | In progress | [`packages/sdk/src/xdr.test.ts`](../packages/sdk/src/xdr.test.ts) |
-| Unified security policy | Publish ecosystem-wide reporting, severity, safe-harbour, and response timeline policy. | Security lead | In progress | [#299](https://github.com/Invoice-Liquidity-Network/Invoice-Liquidity-Network/issues/299) |
+| Unified security policy | Publish ecosystem-wide reporting, severity, safe-harbour, and response timeline policy. | Security lead | Done | [#299](https://github.com/Invoice-Liquidity-Network/Invoice-Liquidity-Network/issues/299) |
 
 ## Contracts
 
@@ -40,10 +40,10 @@ Status values:
 
 | Item | Description | Owner | Status | Link |
 | --- | --- | --- | --- | --- |
-| Local development guide complete | Provide contributor setup for prerequisites, submodules, env vars, Docker Compose, service commands, tests, and OS troubleshooting. | Docs lead | In progress | [#300](https://github.com/Invoice-Liquidity-Network/Invoice-Liquidity-Network/issues/300) |
-| Glossary complete | Define protocol terminology for DeFi, invoice factoring, Stellar, governance, security, and notifications. | Docs lead | In progress | [#301](https://github.com/Invoice-Liquidity-Network/Invoice-Liquidity-Network/issues/301) |
+| Local development guide complete | Provide contributor setup for prerequisites, submodules, env vars, Docker Compose, service commands, tests, and OS troubleshooting. | Docs lead | Done | [#300](https://github.com/Invoice-Liquidity-Network/Invoice-Liquidity-Network/issues/300) |
+| Glossary complete | Define protocol terminology for DeFi, invoice factoring, Stellar, governance, security, and notifications. | Docs lead | Done | [#301](https://github.com/Invoice-Liquidity-Network/Invoice-Liquidity-Network/issues/301) |
 | API and SDK guides complete | Confirm SDK, CLI, indexer, and notification API docs match current package behavior. | SDK lead | In progress | [SDK API reference](sdk-api-reference.md) |
-| Mainnet checklist maintained | Keep this checklist linked from the root README and update statuses as referenced issues close. | Release lead | In progress | [#298](https://github.com/Invoice-Liquidity-Network/Invoice-Liquidity-Network/issues/298) |
+| Mainnet checklist maintained | Keep this checklist linked from the root README and update statuses as referenced issues close. | Release lead | Done | [#298](https://github.com/Invoice-Liquidity-Network/Invoice-Liquidity-Network/issues/298) |
 
 ## Community
 
